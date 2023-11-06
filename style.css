@@ -1,0 +1,45 @@
+.text{
+    width: 30%;
+    margin: auto;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+header {
+    background-color: black;
+    color: white;
+
+}
+article{
+    margin: auto;
+}
+
+img{
+    width: 25%;
+}
+
+footer{
+    padding: 1rem;
+    display: flex;
+    justify-content: right;
+}
